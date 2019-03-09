@@ -4,192 +4,26 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-	<title>Our Wedding</title>
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Hind+Madurai" rel="stylesheet">
-	<script src="behavior.js"></script>
+	<title>Wedding Redirect</title>
+	<script>
+		// window.location.replace("https://trrevvorr.github.io/our-wedding/?key=TEQXvU6b0YrP5njupoPb");
+	</script>
+	<style>
+		body {
+			font-family: Verdana, Geneva, sans-serif;
+			text-align: center;
+			background-color: #EAE4D4;
+			color: #360B15;
+		}
+	</style>
 </head>
 
 <body>
-	<div class="page">
-		<div class="left">
-			<div class="overlay">
-				<div class="nav-bar">
-					<div class="links">
-						<a href="#wedding-info">Wedding</a>
-						<a href="#RSVP">RSVP</a>
-						<a href="#about-us">About Us</a>
-						<a href="#photos">Photos</a>
-						<a href="#registry">Registry</a>
-					</div>
-				</div>
-				<div class="header">
-					<h1 class="text top">We're Getting</h1>
-					<h1 class="text bottom">Married!</h1>
-				</div>
-				<span class="scroll-for-more">»</span>
-			</div>
-		</div>
-		<div class="right">
-			<div class="section" id="wedding-info">
-				<div class="title-background">
-					<div class="title-overlay">
-						<h2 class="title">The Big Day</h2>
-					</div>
-				</div>
-				<div class="outer-content">
-					<div class="content">
-						<p>Nemore adipiscing et mei, amet justo vivendum te pro, nam diam eleifend evertitur at. In solet accommodare
-							cum.
-							Vim ea nibh facilis torquatos, ex his cetero omnesque. Ne commune consequuntur vel, ex vel amet quidam prompta.
-							Ea
-							magna alienum partiendo nec, decore moderatius id per.</p>
-						<p>Qui mollis nusquam ut, mea agam maiorum cu, quo aperiam impedit an. Ut qui nostro principes, eu fierent
-							evertitur
-							persequeris sed. Repudiare reprehendunt mei ut. Mel te eius brute tation. Usu in aeque dolorem theophrastus.</p>
-					</div>
-				</div>
-			</div>
-			<div class="section" id="RSVP">
-				<div class="title-background">
-					<div class="title-overlay">
-						<h2 class="title">RSVP</h2>
-					</div>
-				</div>
-				<div class="outer-content guest">
-					<div class="content">
-						<form class="form" id="guest-info-form" onsubmit="return RSVPSubmitGuest();">
-							<div role="alert" class="request-error">
-								<p><strong>Uh-oh!</strong></p>
-								<p>
-									We're having trouble finding you.
-									Make sure to check the spelling of your first and last name and ensure your phone number is correct.
-								</p>
-								<p>
-									If you're still having trouble, call Trevor or Nancy to RSVP manually.
-								</p>
-							</div>
-							<div class="field">
-								<label for="first-name-field">First Name</label>
-								<input type="text" id="first-name-field" required>
-							</div>
-							<div class="field">
-								<label for="last-name-field">Last Name</label>
-								<input type="text" id="last-name-field" required>
-							</div>
-							<div class="submit">
-								<input type="submit" id="RSVPSubmitButton" value="LOOK ME UP">
-							</div>
-						</form>
-						<form class="form" id="family-info-form" onsubmit="return RSVPSubmitFamily();">
-							<div role="alert" class="request-error">
-								<p><strong>Uh-oh!</strong></p>
-								<p>
-									We're having trouble saving your form.
-									Please make sure you're connected to the internet and try again.
-								</p>
-								<p>
-									If you're still having trouble, call Trevor or Nancy to RSVP manually.
-								</p>
-							</div>
-							<h3 id="family-title">Your Family</h3>
-							<div id="family-members">
-							</div>
-							<div class="submit">
-								<input type="submit" id="RSVPSubmitButton" value="SUBMIT">
-							</div>
-						</form>
-					</div>
-					<div class="loader-container">
-						<div class="loader"></div>
-					</div>
-				</div>
-			</div>
-			<div class="section" id="about-us">
-				<div class="title-background">
-					<div class="title-overlay">
-						<h2 class="title">About Us</h2>
-					</div>
-				</div>
-				<div class="outer-content">
-					<div class="content">
-						<p>Lorem ipsum dolor sit amet, no velit essent dolorum eos. Eu mollis tamquam nec, nec nibh imperdiet et. Eos
-							nonumy
-							consequuntur cu, ut ipsum malorum consulatu nam. Ut iuvaret tacimates mei, eu odio perfecto euripidis mel, eos
-							vitae
-							legere deseruisse ne. Pri quaeque fabulas persequeris et.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="section" id="photos">
-				<div class="title-background">
-					<div class="title-overlay">
-						<h2 class="title">Photographs</h2>
-					</div>
-				</div>
-				<div class="outer-content">
-					<div class="content">
-						<div class="album-list">
-							<h3 class="album-title">Michigan Engagement Shoot</h3>
-							<div class="paper-stack">
-								<a class="image-link " href="https://photos.app.goo.gl/Y2FjHfmkG31HSuro6">
-									<img class="image-link" alt="engagement photo album" src="images/album_cover_1.JPG">
-								</a>
-							</div>
-							<h3 class="album-title">Missouri Engagement Shoot</h3>
-							<div class="paper-stack">
-								<a class="image-link " href="https://photos.app.goo.gl/ytUX75ueLZizbnuK7">
-									<img class="image-link" alt="engagement photo album" src="images/album_cover_2.jpeg">
-								</a>
-							</div>
-						</div>
-					</div>
-					<p class="note">Click photos to view albums</p>
-				</div>
-			</div>
-			<div class="registry section" id="registry">
-				<div class="title-background">
-					<div class="title-overlay">
-						<h2 class="title">Registry</h2>
-					</div>
-				</div>
-				<div class="outer-content">
-					<div class="content">
-						<a class="image-link" href="https://www.amazon.com/wedding/trevor-ross-nancy-krutty-plymoth-september-2019/registry/2I6EBJZX84Z94">
-							<img class="image-link" src="images/amazon_registry_logo.png">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<template id="family-member-template">
-		<div class="family-member paper">
-			<div class="field">
-				<label for="guest-name-x">Guest</label>
-				<input id="guest-name-x" type="text">
-			</div>
-			<fieldset class="attending">
-				<span class="radio">
-					<input type="radio" id="accept-x" name="attending-radio-x">
-					<label for="accept-x">Kindly Accept</label>
-				</span>
-				<span class="radio">
-					<input type="radio" id="decline-x" name="attending-radio-x">
-					<label for="decline-x">Regretfully Decline</label>
-				</span>
-			</fieldset>
-			<fieldset class="menu">
-			</fieldset>
-		</div>
-	</template>
-	<template id="menu-item-template">
-		<span class="radio">
-			<input type="radio" id="menu-item-x" name="menu-x">
-			<label for="menu-item-x">Menu Item</label>
-		</span>
-	</template>
+	<h1>Uh Oh!</h1>
+	<p>It looks like you have JavaScript disabled on your browser.</p>
+	<p>Please enable JavaScript and navigate to
+		<a href="https://trrevvorr.github.io/our-wedding/?key=TEQXvU6b0YrP5njupoPb">OurWedding site</a>.
+	</p>
 </body>
 
 </html>
